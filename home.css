@@ -1,0 +1,949 @@
+/* Universal selector for all */
+*{
+    margin:0px;
+    padding:0px;
+}
+/*Navigation bar for whole website*/
+.navigation{
+    width:100%;
+    height:90px;
+    background-color:black;
+    line-height: 90px;
+    position: sticky;
+    top:0px;
+}
+.lists li{
+    display:inline-block;
+    list-style-type: none;
+    transition: 1s;
+}
+.lists li:hover{
+    transform:scale(1.3);
+    background-color: aqua;
+    box-sizing: 2px;
+     box-shadow: 2px 2px 2px #000;
+    
+    }
+.lists{
+    display: inline;
+    margin-right: 35%;
+    float:right;
+}
+.lists li a{
+    text-decoration: none;
+    color:blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    font-size: 18px;  
+}
+.pic{
+    border:4px solid #00ffff;
+    border-radius :50%;
+    margin-top: 2.5px;
+    
+}
+#search{
+    font-size: 18px;
+    padding:6px;
+    border : 4px solid #00ffff;
+     margin-top: 22px;
+    border-radius: 40px;
+    float:right;
+    height:"200";
+    width:"80";
+    margin-bottom: 40%;
+
+}
+.btn{
+    width:50px;
+    height: 35px;
+    margin-right: 50%;
+    margin-top: 23px;
+}
+
+.rightarea{
+    display: flex;
+    margin-left:75%;
+    margin-top: -130px;
+}
+.photo{
+    height: fit-content;
+       background-image: url(home/face.jpg);
+       height: 350px;
+       background-position: center;
+       background-size: cover;
+       height: 650px;
+       margin-top: -90px;
+}
+.first-text{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color:cornsilk;
+    bottom: 60%;
+    left:40px;
+}
+.second-text{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:cornsilk;
+    bottom: 50%;
+    left:40px;
+}
+.third-text{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color:cornsilk;
+    bottom: 40%;
+    left:40px;
+}
+
+/*for theme*/
+#dark{
+    margin-top: 10px;
+    height:50px;
+    width:80px;
+    border-radius:47px;
+    margin-left: 47%;
+}
+.theme{
+    text-decoration: none;
+    border-radius:20px;
+    height:40px;
+    width:25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom:-7%;
+    margin-left: 38%;
+    transition: 1s;
+    color:black;
+}
+.theme:hover{
+    background-color: aqua;
+    transform:scale(1.3);
+
+}
+
+/*for icons in home page*/
+.facebookhome{
+    margin-top:570px;
+    border:2px solid aqua;
+    border-radius: 50%;
+    margin-left: 59%;
+    transition: 1s;
+}
+.instagramhome{
+    margin-bottom:80%;
+    margin-top:15%;
+    margin-left: 59%;
+    border:2px solid aqua;
+    border-radius: 50%;
+    transition: 1s;
+}
+.ythome{
+    margin-top:-125px;
+    margin-left: 59%;
+    border:2px solid aqua;
+    border-radius: 50%;
+    margin-bottom:90px;
+    transition: 1s;
+}
+
+/*for hover effects in homepage's icons*/
+.facebookhome:hover{
+    transform:scale(1.3);
+}
+.instagramhome:hover{
+    transform:scale(1.3);
+}
+.ythome:hover{
+    transform:scale(1.3);
+}
+.change-btn{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color:black;
+    padding :10px;
+    bottom: 30%;
+    left:40px;
+    border:2px solid crimson;
+    border-radius :10px;
+}
+.change-btn:hover{
+    text-decoration: none;
+    background-color:crimson;
+}
+
+/*Styling for webpage CV*/
+.firstimage{
+    height:375px;
+    width:375px;
+    border:2px solid aqua;
+    border-radius:50%;
+    margin-top:-500px;
+    margin-bottom: 15%;
+    margin-right:12%;
+    margin-left: -51%;
+}
+
+.h1text{
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-top:70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+.h2text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+    font-weight: 100;
+    font-size: 30px;
+}
+.cvtext{
+    margin-top:-7px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.cv2text{
+    margin-top:-7px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.writingsection{
+    margin-left:31%;
+    margin-right:9%;
+}
+.hireme{
+    text-decoration: none;
+    border-radius:20px;
+    height:40px;
+    width:25%;
+    margin-left:18%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 1s;
+    
+}
+.download{
+    text-decoration: none;
+    border-radius:20px;
+    height:40px;
+    width:25%;
+    margin-left:8%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 1s;
+}
+.buttons{
+    margin-top:50px;
+}
+.media{
+    text-decoration: none;
+    list-style-type: none;
+    margin-right:30px;
+   margin-left:-200px;
+}
+.requirements{
+    margin-top:-20%;
+    display:flex;
+    margin-left:-350px;
+}
+
+/*for icons of cv*/
+.facebookcv{
+margin-bottom:20%;
+margin-left: 24%;
+transition: 1s;
+border-radius: 50%;
+}
+.instagramcv{
+margin-bottom:20%;
+margin-left: 20%;
+transition: 1s;
+border-radius: 50%;
+}
+.ytcv{
+margin-bottom:20%;
+margin-left: 20%;
+transition: 1s;
+border-radius: 50%;
+}
+.information{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left:-260px;
+}
+.experience{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top:-370px;
+    margin-left:200px;
+}
+.skills{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: -370px;
+    margin-left:85%;
+}
+.cvtheme{
+    margin-bottom:100px;
+    margin-right:27%;
+    margin-top: -150px;
+    margin-left: -50px;
+
+}
+
+/*for hover effect on cv*/
+.facebookcv:hover{
+    transform:scale(1.3);
+}
+.instagramcv:hover{
+    transform:scale(1.3);
+}
+.ytcv:hover{
+    transform:scale(1.3);
+}
+
+.icon{
+    display:flex
+}
+.hireme:hover{
+    transform:scale(1.3);
+    background-color: aqua;
+}
+.download:hover{
+    transform:scale(1.3);
+    background-color: aqua;
+}
+.h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:80px;
+    position: relative;
+    margin-top: 100px;
+}
+.h1:before{
+    content: "";
+    width: 250px;
+    height: 2PX;
+    display: block;
+    background: black;
+    position: absolute;
+    top: 160%;
+}
+.h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:260px;
+    position: relative;
+    margin-top: 100px;
+}
+.h2:before{
+    content: "";
+    width: 250px;
+    height: 2PX;
+    display: block;
+    background: black;
+    position: absolute;
+    top: 160%;
+
+}
+.h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:250px;
+    position: relative;
+    margin-top: 100px;
+}
+.h3:before{
+    content: "";
+    width: 250px;
+    height: 2PX;
+    display: block;
+    background: black;
+    position: absolute;
+    top: 160%;
+}
+
+/**styling for blog webpage*/
+.header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-left:18%;
+    margin-top: 2%; 
+    font-size: 40px;
+}
+#blogphoto{
+    width: 80%;
+    height:500px;
+    margin-left:12%;
+    border:2px solid black;
+    
+}
+.left{
+height: 40px;
+width:40px;
+margin-left: 65px;
+margin-top:-10%;
+border-radius: 50%;
+}
+.right{
+height: 40px;
+width:40px;
+margin-left: 92%;
+margin-top:-10%;
+border-radius: 50%;
+
+
+}
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top:7px;
+    margin-left: 18%;
+    margin-right: 12%;
+    text-align: justify;
+    
+}
+.video{
+    margin-top:30px;
+    margin-left: 9%;
+}
+.go{
+     margin-top: 4%;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size:30px ; 
+      text-align: center;
+}
+
+.first{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top:5px;
+   margin-left: 18%;
+   margin-right: 12%;
+   text-align: justify;
+}
+.second{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top:5px;
+    margin-left: 18%;
+    margin-right: 12%;
+    text-align: justify;
+}
+.third{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top:5px;
+    margin-left: 18%;
+    margin-right: 12%;
+    text-align: justify;
+}
+.fourth{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top:5px;
+    margin-left: 18%;
+    margin-right: 12%;
+    text-align: justify;
+}
+.stop{
+    margin-top: 4%;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size:30px ; 
+      text-align: center;
+}
+.disfirst{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top:5px;
+    margin-left: 18%;
+    margin-right: 12%;
+    text-align: justify;
+}
+.dissecond{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top:5px;
+    margin-left: 18%;
+    margin-right: 12%;
+    text-align: justify;
+}
+.disthird{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top:5px;
+    margin-left: 18%;
+    margin-right: 12%;
+    text-align: justify;
+}
+.disfourth{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top:5px;
+    margin-left: 18%;
+    margin-right: 12%;
+    text-align: justify;
+}
+.box{
+    border:2px solid black;
+    height:270px;
+    width:900px;
+    margin-top:5%;
+    margin-left:15%;
+    background-color:orange;
+}
+#input{
+margin-top: 13%;
+margin-left:3%;
+height: 20%;
+width:84%;
+margin-bottom: 30%;
+margin-top:-9%;
+}
+#btn{
+    margin-right:10px;
+    height:22%;
+    background-color: orange;
+    width:70px;
+    transition: 1s;
+}
+#btn:hover{
+    transform:scale(1.3);
+    background-color: burlywood;
+}
+.footer{
+    width:100%;
+    height:400px;
+    background-color:black;
+    margin-top: 14%;
+}
+.foot{
+    width:100%;
+    height:400px;
+    background-color:black;
+    margin-top: 50%;
+    margin-left:-55%;
+    padding-right: 60%;
+    padding-left: 29%;
+}
+.table1{
+    border:2px solid black;
+    margin-left: 28%;
+}
+.table2{
+    border:2px solid black;
+    margin-left: 28%;
+}
+/*footer section for all webpages*/
+.fb{
+    border:2px solid black;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 35%;
+    transition: 1s;
+}
+.fb:hover{
+    transform:scale(1.3);
+}
+.insta{
+    border:2px solid black;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 2%;
+    transition: 1s;
+}
+.insta:hover{
+    transform:scale(1.3);
+}
+.youtube{
+    border:2px solid black;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 2%;
+    transition: 1s;
+}
+.youtube:hover{
+    transform:scale(1.3);
+}
+.linkden{
+    border:2px solid black;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 2%;
+    transition: 1s;
+}
+.linkden:hover{
+    transform:scale(1.3);
+}
+
+
+/*contact webpage styling*/
+
+.contact{
+    border:2px solid black;
+    margin-top:6%;
+    margin-left:36%;
+    width:50%;
+    height:1100px;
+    background-color: bisque;
+}
+.paragraph{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top:4%;
+    font-weight: bolder;
+}
+.name{
+    margin-left:8%;
+    margin-bottom:-3%;
+}
+
+#text{
+border-radius:12px;
+margin-top: 6%;
+margin-left:8%;
+width:85%;
+height:50px;
+}
+.email{
+    margin-left:6%;
+    margin-top: 12%;
+}
+.number{
+    margin-left:50%;
+    margin-top: -15%;
+    width:87%;
+    
+   
+}
+.gmail{
+    margin-left:1%;
+    margin-bottom: 8%;
+
+}
+.mob{
+    margin-left:8%;
+    margin-bottom: 8%;
+}
+#address{
+    border-radius:12px;
+    margin-left:0%;
+    height:40px;
+    width:40%;
+}
+#phone{
+    border-radius:12px;
+    margin-left:8%;
+    height:40px;
+    width:40%;
+    margin-top:-39px;
+}
+.radio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10%;
+    margin-left: 8%;
+    color: lightslategray;
+}
+.age{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 7%;
+    margin-left: 8%;
+    color: lightslategray;
+}
+.message{
+    margin-top:3%;
+    margin-left: 8%;
+    height: 200px;
+    width:85%;
+}
+.msg{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 7%;
+    margin-left: 8%;
+}
+.button{
+    margin-top: 7%;
+    width:90%;
+    margin-left:6%;
+    height:50px;
+    border-radius: 40px;
+    color:whitesmoke;
+    background-color:darkslategray;
+}
+.links{
+    float:left;
+    margin-top: -65%;
+    border-radius:50%;
+}
+.linkscontact{
+    float:left;
+    margin-top: -93%;
+    border-radius:50%;
+}
+#check{
+    margin-right:-50%;
+}
+
+
+/*for contact's icons*/
+.fbook{
+    margin-bottom:70%;
+    margin-left: 60%; 
+    transition: 1s;
+    border-radius: 50%;
+}
+.fbook:hover{
+    transform:scale(1.3);
+}
+.igram{
+    margin-bottom:80%;
+    margin-top:-50%;
+    margin-left: 59%;
+    transition: 1s;
+    border-radius: 50%;
+}
+.igram:hover{
+    transform:scale(1.3);
+}
+.ytb{
+    margin-top: -53%;
+    margin-left: 57%;
+    margin-bottom: 200px;  
+    transition: 1s; 
+    border-radius: 50%;
+}
+.ytb:hover{
+transform:scale(1.3);
+}
+
+.info{
+    margin-left:18%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    margin-top: 2%;
+}
+#check{
+    margin-left: -60%;
+    margin-left:12%;
+    padding-bottom:20px;
+}
+.rights{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    margin-top: 12%;
+    margin-left:40%;
+}
+
+
+/*styling for research section*/
+.head{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2%; 
+    font-size: 40px;    
+}
+#main{
+ width: 80%;
+height:500px;
+    margin-left:12%;
+    border:2px solid black;   
+}
+.question{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top:5%;
+   margin-left: 18%;
+   margin-right: 12%;
+   text-align: justify;
+}
+/*for comparision in reaserch page*/
+.firstrightcomparision{
+    margin-top:70px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:9%;
+    margin-right:31%;
+}
+.firstleftcomparision{
+    margin-top:150px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:32%;
+    margin-right:9%;
+}
+.home{
+    float:right;
+    height:250px;
+    width:350px;
+    margin-right:10px;
+    margin-top:-190px;
+    border-radius:10%;
+    margin-bottom: -6%;
+    border:2px solid black;
+}
+.finalhome{
+    float:left;
+    height:250px;
+    width:380px;
+    margin-left:10px;
+    margin-top:-260px;
+    border-radius:10%;
+    margin-bottom: -6%;
+    border:2px solid black;
+}
+.secondrightcomparision{
+    margin-top:90px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:9%;
+    margin-right:31%;
+}
+.secondleftcomparision{
+    margin-top:150px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:32%;
+    margin-right:9%;
+}
+.cvpage{
+    float:right;
+    height:250px;
+    width:350px;
+    margin-right:10px;
+    margin-top:-260px;
+    border-radius:10%;
+    margin-bottom: -100px;
+    border:2px solid black;
+}
+.finalcvpage{
+    float:left;
+    height:250px;
+    width:380px;
+    margin-left:10px;
+    margin-top:-260px;
+    border-radius:10%;
+    margin-bottom: -6%;
+    border:2px solid black;
+}
+.thirdrightcomparision{
+    margin-top:90px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:9%;
+    margin-right:31%;
+}
+.thirdleftcomparision{
+    margin-top:130px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:32%;
+    margin-right:9%;
+}
+.fourthrightcomparision{
+    margin-top:90px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:9%;
+    margin-right:31%;
+}
+.fourthleftcomparision{
+    margin-top:150px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:32%;
+    margin-right:9%;
+}
+.research{
+    float:right;
+    height:250px;
+    width:350px;
+    margin-right:10px;
+    margin-top:-260px;
+    border-radius:10%;
+    margin-bottom: -6%;
+    border:2px solid black;
+}
+.finalresearch{
+    float:left;
+    height:250px;
+    width:380px;
+    margin-left:10px;
+    margin-top:-260px;
+    border-radius:10%;
+    margin-bottom: -6%;
+    border:2px solid black;
+}
+.fifthrightcomparision{
+    margin-top:90px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:9%;
+    margin-right:31%;
+}
+.fifthleftcomparision{
+    margin-top:140px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:33%;
+    margin-right:9%;
+}
+.contacts{
+    float:right;
+    height:250px;
+    width:350px;
+    margin-right:10px;
+    margin-top:-210px;
+    border-radius:10%;
+    margin-bottom: -6%;
+    border:2px solid black;
+}
+.finalcontacts{
+    float:left;
+    height:250px;
+    width:380px;
+    margin-left:10px;
+    margin-top:-260px;
+    border-radius:10%;
+    margin-bottom: -6%;
+    border:2px solid black;
+}
+
+.blog{
+    float:right;
+    height:250px;
+    width:350px;
+    margin-right:10px;
+    margin-top:-260px;
+    border-radius:10%;
+    margin-bottom: -6%;
+    border:2px solid black;
+}
+.finalblog{
+    float:left;
+    height:250px;
+    width:380px;
+    margin-left:10px;
+    margin-top:-219px;
+    border-radius:10%;
+    margin-bottom: -6%;
+    border:2px solid black;
+}
+
+/*stlying completed for all the webpages*/
+

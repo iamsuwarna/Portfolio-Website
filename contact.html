@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name ="contacts" content="This the website's contact page">
+    <meta name ="author" content ="Subarna Karki">
+    <meta name ="Keywords" content="input , form , division">
+    
+    <!--linking css into html-->
+    <link rel = "stylesheet" href = "home.css">
+    <title>www.subarnakarki.com</title>
+    <body style ="background-color:whitesmoke;width:100%"></body>
+
+        <!--navigation bar part-->
+        <nav class ="navigation">  
+            <img class="pic" src ="pf.png" width ="200" height="80">     
+            <ul class ="lists">
+                <li><a href ="home.html">Home</a></li>
+                <li><a href ="newcv.html">CV</a></li>
+                <li><a href ="Blog.html">Blog</a></li>
+                <li><a href ="Research.html">Research</a></li>
+                <li><a href ="contact.html">Contact</a></li>
+            </ul>
+        <!--for search icon-->
+            <div class="rightarea">
+                <input type = "text" id = "search" placeholder="Type here to search.....">
+                <img class="btn" src = "finalsearch.jpg" alt="This is search icon">
+            </div>
+        </nav>
+
+        <!--use of javascript-->
+        <script  src="function.js"></script>
+
+        
+        <!--for contact section-->
+        <form name="input" onsubmit="validation()">
+            <div class="contact">
+                <p class="paragraph">Contact us </p>
+                <br>
+
+            <div>
+                <p class="name">FULL NAME*</p>
+                <input type ="text" placeholder="Enter your name" name ="name" id ="text">
+            </div>
+
+            <div class="email">
+                <p class="gmail">EMAIL*</p>
+                <input id="address"type="email" placeholder="Enter Your Email" name="email">
+                </div>
+
+            <div class="number">
+                <p class="mob">PHONE*</p>
+                <input id="phone"type ="number" placeholder="Enter Your Number" name="number">
+            </div>
+
+            <div>
+                <p class="radio" name="gender">Gender :<input type="radio" name ="gender">Male
+                    <input type="radio" name ="gender">Female
+                    <input type="radio" name ="gender">Others
+                </p>
+            </div>
+
+            <div>
+                <p class ="age">Your Date of Birth:
+                    <input type="date" id ="dob" name ="date">
+                </p>
+            </div>
+
+            <div>
+                <p class="msg">Message:</p>
+                    <textarea class ="message" rows="15" cols="15" placeholder="Type Your Message Here"></textarea>
+                            
+            </div>
+
+        <!--for checkbox-->
+            <div>
+                <div>
+                    <p class="info">By clicking,Here by I accept the terms and conditions</p>
+                        <input id = "check" type ="checkbox">
+                </div>
+                    <button class ="button">Submit</button>
+                </div>
+            </div>
+        </form>
+        <!--use of javascript-->
+        <script src="function.js">
+        </script>
+
+        <!--theme-->
+         <div>
+            <img id ="dark" src="dark.jpg">
+        </div>
+
+        <div>
+            <button class="theme" onclick="change()">Change theme</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+        <section>
+        <script src="function.js"></script>
+
+        <!--contact icons-->
+        <section class="linkscontact">
+            <a href="https://www.facebook.com/subarna.karki.564/">
+                <img class="fbook" src ="blog/facebook.png" height="50px" width="50px">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img class="igram" src ="blog/insta.png" height="50px" width="50px">
+            </a>
+            <a href="https://www.youtube.com">
+                <img class="ytb" src ="blog/youtube.png" height="50px" width="50px">
+            </a>
+        </section>
+
+        <!--follow us -->
+        <div class="footer">
+            <p style="color: white; font-family: Verdana, Geneva, Tahoma, sans-serif;font-size:20px;color: blanchedalmond;margin-left: 41%;padding-top: 60px;">Follow Us on</p>
+                <a href="https://www.facebook.com/subarna.karki.564/">
+                    <img class="fb" src ="blog/facebook.png" height="50px" width="50px">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img class="insta" src ="blog/insta.png" height="50px" width="50px">
+                </a>
+                <a href="https://www.youtube.com">
+                     <img class="youtube" src ="blog/youtube.png" height="50px" width="50px">
+                </a>
+                <a href="https://wwww.linkden.com">
+                    <img class="linkden" src ="blog/real li.png" height="50px" width="50px">
+                </a>
+        <!--for all rights reserved-->
+
+                <div class="rights">
+                    <p>@ 2021 Subarna Karki . All rights reserved.<br>
+                        Designed by krafton corporation.
+                        </p>
+
+                </div>
+                
+            </div>
+
+        </body>
+        </head>
+        </html>
